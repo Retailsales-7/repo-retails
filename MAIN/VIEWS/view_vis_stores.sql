@@ -1,0 +1,6 @@
+create or replace view DB_RETAIL.MAIN.VIEW_STORE_CITIES(
+	STORE_ID,
+	STORETYPE_ID,
+	STORE_SIZE,
+	CITY_ID
+) as select * from DB_RETAIL.MAIN.VIS_STORE;
